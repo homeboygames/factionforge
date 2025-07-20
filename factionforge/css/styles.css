@@ -1,0 +1,13 @@
+.hierarchy-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.org-card {
+  padding: 10px;
+  background: #2e2e2e;
+  border: 1px solid #999;
+  border-radius: 6px;
+  width: 150px;
+  text-align: center;
+}

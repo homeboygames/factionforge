@@ -1,0 +1,31 @@
+<form class="organization-sheet">
+  <header class="sheet-header">
+    <h1>{{actor.name}}</h1>
+  </header>
+  <nav class="sheet-tabs tabs">
+    <a class="item" data-tab="description">Description</a>
+    <a class="item" data-tab="allies">Allies</a>
+    <a class="item" data-tab="enemies">Enemies</a>
+  </nav>
+  <section class="sheet-body">
+    <div class="tab" data-tab="description">
+      <textarea name="system.description">{{system.description}}</textarea>
+    </div>
+    <div class="tab" data-tab="allies">
+      <ul>
+        {{#each allies}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+      <button type="button" class="add-ally">Add Ally</button>
+    </div>
+    <div class="tab" data-tab="enemies">
+      <ul>
+        {{#each enemies}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+      <button type="button" class="add-enemy">Add Enemy</button>
+    </div>
+  </section>
+</form>

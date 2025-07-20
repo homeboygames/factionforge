@@ -1,0 +1,28 @@
+{
+  "id": "factionforge",
+  "name": "factionforge",
+  "title": "FactionForge: Social Hierarchy Tracker",
+  "description": "Track and visualize organizational hierarchies, alliances, and rivalries in Pathfinder 2e.",
+  "version": "0.1.0",
+  "author": "CloudKeeper",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "13",
+  "system": ["pf2e"],
+  "scripts": [
+    "scripts/main.js",
+    "https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"
+  ],
+  "styles": ["css/styles.css"],
+  "esmodules": ["scripts/organization-sheet.js", "scripts/hierarchy-app.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "url": "https://github.com/homeboygames/factionforge",
+  "manifest": "https://raw.githubusercontent.com/homeboygames/factionforge/main/module.json",
+  "download": "https://github.com/homeboygames/factionforge/releases/latest/download/factionforge.zip"
+}

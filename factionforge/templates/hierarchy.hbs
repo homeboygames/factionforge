@@ -1,0 +1,8 @@
+<div class="hierarchy-grid">
+  {{#each organizations as |org|}}
+    <div class="org-card" data-id="{{org.id}}">
+      <strong>{{org.name}}</strong><br />
+      Rep: {{org.system.reputation}}
+    </div>
+  {{/each}}
+</div>
